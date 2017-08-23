@@ -1,0 +1,6 @@
+{% extends 'myapp/base.html' %}
+Hello User
+{% block body_block %}
+    <strong>About</strong>
+    <p><a href="{% url 'myapp:index' %}">Return to Index</a></p>
+{% endblock %}
